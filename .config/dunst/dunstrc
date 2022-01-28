@@ -1,7 +1,8 @@
 [global]
     ### Display ###
     follow              = keyboard
-    geometry            = "300x5-30+20"
+	origin              = top-right
+	offset              = 13x13
     indicate_hidden     = yes
     shrink              = no
     transparency        = 5
