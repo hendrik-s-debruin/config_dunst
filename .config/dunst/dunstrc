@@ -90,11 +90,25 @@
     background = "#32302f"
     frame_color = "#32302f"
     foreground = "#ebdbb2aa"
-    timeout = 120
+    timeout = 0
 
 [urgency_critical]
     background = "#cc241d"
     foreground = "#ebdbb2"
     frame_color = "#cc241d"
     timeout = 0
+
+[notify-this-success]
+    category = notify-this-success
+    background = "#98971a"
+    foreground = "#ebdbb2"
+    frame_color = "#98971a"
+    timeout = 0
+
+[notify-this-failure]
+    category = notify-this-failure
+    urgency = critical
+    background = "#cc241d"
+    foreground = "#ebdbb2"
+    frame_color = "#cc241d"
 # vim: ft=cfg
